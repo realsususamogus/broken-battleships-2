@@ -1,0 +1,26 @@
+html, body {
+  margin: 0;
+  padding:myVideo}
+canvas {
+  display: block;
+}
+.mybutton {
+  font-size: 50px;
+  border-color: "red";
+  border-radius: 25px;
+  font-family: "Lucida Console", MONOSPACE;
+  background-image: linear-gradient(red, yellow)
+}
+.mybutton2 {
+  font-size: 30px;
+  border-color: "red";
+  border-radius: 25px;
+  font-family: "Lucida Console", MONOSPACE;
+  background-image: linear-gradient(red, yellow)
+}
+#explosion-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1; /* Make sure it's on top */
+}
